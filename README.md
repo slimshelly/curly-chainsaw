@@ -1,4 +1,5 @@
-# test_website1
+# curly-chainsaw
+a vue framework test project
 
 ## Project setup
 ```
@@ -20,5 +21,3 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

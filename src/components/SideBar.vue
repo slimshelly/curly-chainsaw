@@ -1,59 +1,52 @@
 <template>
   <div class="menu_container">
     <div class="menu text">
-      <div
-        class="page_content clearfix"
-        data-elementresizer=""
-        data-resize-parent=""
-        data-ce-host="true"
-        data-ce-model-id="10189669"
-      >
-        <a href="#" rel="home_page"
-          ><b
-            >Concrete Islands<br />
-            (Bureaucracy and Labyrinth)</b
-          ><br />
-          <br
-        /></a>
-        <a href="Section-01" rel="history" data-tags="Section-01">Section 01</a>
-        <hr />
-        <blockquote><a href="01" rel="history">The Grid</a></blockquote>
-        <blockquote>
-          <a href="02" rel="history">Haphazard Arrangements</a>
-        </blockquote>
-        <blockquote>
-          <a href="03" rel="history">Violence and Confrontation</a>
-        </blockquote>
-        <blockquote><a href="04" rel="history">Glass Boxes</a></blockquote>
-        <br />
-        <a href="Section-02" rel="history" data-tags="Section-02"
-          >Section&nbsp; 02</a
-        >
-        <hr />
-        <blockquote>
-          <a href="05" rel="history">Planetary Suburbia</a>
-        </blockquote>
-        <blockquote>
-          <a href="06" rel="history">J</a
-          ><a href="06" rel="history">umbled Spatiality</a><br />
-        </blockquote>
-        <blockquote>
-          <a href="07" rel="history">Intruder in the Fortress</a>
-        </blockquote>
-        <blockquote>
-          <a href="08" rel="history">Endlessly Reenacted</a>
-        </blockquote>
-        <blockquote>
-          <a href="09" rel="history">Unrelated Objects</a>
-        </blockquote>
-        <blockquote>
-          <a href="10" rel="history">Residential Buildings</a>
-        </blockquote>
-        <br />
-
-        <a href="Information" rel="history">Information</a><br />
-        <br />
+      <a href="#" rel="home_page"
+        ><b
+          >Concrete Islands<br />
+          (Bureaucracy and Labyrinth)</b
+        ><br />
+        <br
+      /></a>
+      <a href="Section-01" rel="history" data-tags="Section-01">Section 01</a>
+      <hr />
+      <div class="bullets">
+        <a href="01" rel="history">The Grid</a>
       </div>
+      <div class="bullets">
+        <a href="02" rel="history">Haphazard Arrangements</a>
+      </div>
+      <div class="bullets">
+        <a href="03" rel="history">Violence and Confrontation</a>
+      </div>
+      <div class="bullets"><a href="04" rel="history">Glass Boxes</a></div>
+      <br />
+      <a href="Section-02" rel="history" data-tags="Section-02"
+        >Section&nbsp; 02</a
+      >
+      <hr />
+      <div class="bullets">
+        <a href="05" rel="history">Planetary Suburbia</a>
+      </div>
+      <div class="bullets">
+        <a href="06" rel="history">Jumbled Spatiality</a><br />
+      </div>
+      <div class="bullets">
+        <a href="07" rel="history">Intruder in the Fortress</a>
+      </div>
+      <div class="bullets">
+        <a href="08" rel="history">Endlessly Reenacted</a>
+      </div>
+      <div class="bullets">
+        <a href="09" rel="history">Unrelated Objects</a>
+      </div>
+      <div class="bullets">
+        <a href="10" rel="history">Residential Buildings</a>
+      </div>
+      <br />
+
+      <a href="Information" rel="history">Information</a><br />
+      <br />
     </div>
   </div>
 </template>
@@ -73,6 +66,8 @@ export default {
   margin-left: 0 /*!content_left*/;
   margin-right: auto /*!content_left*/;
   align-items: flex-end /*!vertical_bottom*/;
+  position: relative;
+  z-index: 2;
 }
 .menu {
   padding-left: 2.5rem /*!main_margin*/;
@@ -91,7 +86,7 @@ export default {
   color: rgba(0, 0, 0, 0.75);
   font-family: "arial", Icons;
   font-style: normal;
-  line-height: 1.2;
+  line-height: 1.3;
   text-align: left /*!text_left;;; */;
 }
 
@@ -100,8 +95,8 @@ export default {
   color: rgba(0, 0, 0, 0.75);
 }
 
-.text blockquote {
-  /* margin-left: 0px; */
+.text .bullets {
+  margin-left: 2rem;
 }
 </style>
 
