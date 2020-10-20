@@ -59,6 +59,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@font-face {
+  font-family: "NittiGrotesk";
+  src: url("~@/assets/fonts/NittiGrotesk-Normal.woff") format("woff");
+}
+
 .menu_container {
   min-height: 100vh /*!page_height_100vh; */;
   background-color: #fff /*!page_bgcolor*/;
@@ -84,7 +89,7 @@ export default {
   font-size: 1rem;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.75);
-  font-family: "arial", Icons;
+  font-family: "NittiGrotesk", Icons;
   font-style: normal;
   line-height: 1.3;
   text-align: left /*!text_left;;; */;
