@@ -9,7 +9,6 @@
         <br
       /></a>
       <a href="Section-01" rel="history" data-tags="Section-01">Section 01</a>
-      <hr />
       <div class="bullets">
         <a href="01" rel="history">The Grid</a>
       </div>
@@ -86,7 +85,7 @@ export default {
 }
 
 .text {
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.75);
   font-family: "NittiGrotesk", Icons;

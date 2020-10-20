@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <SideBar />
-    <Page />
+    <PortfolioPage />
   </div>
 </template>
 
 <script>
 import SideBar from "./components/SideBar.vue";
-import Page from "./components/Page.vue";
+import PortfolioPage from "./components/PortfolioPage.vue";
 
 export default {
   name: "App",
   components: {
     SideBar,
-    Page,
+    PortfolioPage,
   },
 };
 </script>
