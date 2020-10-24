@@ -1,50 +1,49 @@
 <template>
   <div class="menu_container">
     <div class="menu text">
-      <a href="#" rel="home_page"
+      <router-link to="/"
         ><b
           >Concrete Islands<br />
           (Bureaucracy and Labyrinth)</b
         ><br />
         <br
-      /></a>
-      <a href="Section-01" rel="history" data-tags="Section-01">Section 01</a>
-      <div class="bullets">
-        <a href="01" rel="history">The Grid</a>
-      </div>
-      <div class="bullets">
-        <a href="02" rel="history">Haphazard Arrangements</a>
-      </div>
-      <div class="bullets">
-        <a href="03" rel="history">Violence and Confrontation</a>
-      </div>
-      <div class="bullets"><a href="04" rel="history">Glass Boxes</a></div>
-      <br />
-      <a href="Section-02" rel="history" data-tags="Section-02"
-        >Section&nbsp; 02</a
-      >
+      /></router-link>
+      <router-link to="Section-01">Section 01 </router-link>
       <hr />
       <div class="bullets">
-        <a href="05" rel="history">Planetary Suburbia</a>
+        <router-link to="01">The Grid</router-link>
       </div>
       <div class="bullets">
-        <a href="06" rel="history">Jumbled Spatiality</a><br />
+        <router-link to="02">Haphazard Arrangements</router-link>
       </div>
       <div class="bullets">
-        <a href="07" rel="history">Intruder in the Fortress</a>
+        <router-link to="03">Violence and Confrontation</router-link>
+      </div>
+      <div class="bullets"><router-link to="04">Glass Boxes</router-link></div>
+      <br />
+      <router-link to="Section-02">Section&nbsp; 02</router-link>
+      <hr />
+      <div class="bullets">
+        <router-link to="05">Planetary Suburbia</router-link>
       </div>
       <div class="bullets">
-        <a href="08" rel="history">Endlessly Reenacted</a>
+        <router-link to="06">Jumbled Spatiality</router-link><br />
       </div>
       <div class="bullets">
-        <a href="09" rel="history">Unrelated Objects</a>
+        <router-link to="07">Intruder in the Fortress</router-link>
       </div>
       <div class="bullets">
-        <a href="10" rel="history">Residential Buildings</a>
+        <router-link to="08">Endlessly Reenacted</router-link>
+      </div>
+      <div class="bullets">
+        <router-link to="09">Unrelated Objects</router-link>
+      </div>
+      <div class="bullets">
+        <router-link to="10">Residential Buildings</router-link>
       </div>
       <br />
 
-      <a href="Information" rel="history">Information</a><br />
+      <router-link to="Information">Information</router-link><br />
       <br />
     </div>
   </div>
@@ -67,6 +66,7 @@ export default {
   min-height: 100vh /*!page_height_100vh; */;
   background-color: #fff /*!page_bgcolor*/;
   width: 20%;
+  padding: 0;
   margin-left: 0 /*!content_left*/;
   margin-right: auto /*!content_left*/;
   align-items: flex-end /*!vertical_bottom*/;

@@ -1,19 +1,16 @@
 <template>
   <div id="app">
     <SideBar />
-    <PortfolioPage />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import SideBar from "./components/SideBar.vue";
-import PortfolioPage from "./components/PortfolioPage.vue";
-
 export default {
   name: "App",
   components: {
     SideBar,
-    PortfolioPage,
   },
 };
 </script>
@@ -21,6 +18,11 @@ export default {
 <style>
 html {
   font-size: 57.06%;
+}
+
+body {
+  background-color: #f3f3f3;
+  -webkit-font-smoothing: antialiased;
 }
 
 div {
