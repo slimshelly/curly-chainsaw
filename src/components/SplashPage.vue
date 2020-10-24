@@ -47,7 +47,7 @@
 <script>
 import Thumbnail from "../components/Thumbnail.vue";
 export default {
-  name: "Page",
+  name: "SplashPage",
   components: {
     Thumbnail,
   },
