@@ -52,32 +52,6 @@ export default {
   top: 0px;
   z-index: 4;
 }
-
-img {
-  width: 100%;
-  height: auto;
-  float: none;
-  margin-bottom: 3em;
-}
-
-.info {
-  margin: -4rem;
-  padding: 2rem;
-  align-items: flex-start;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.caption {
-  font-weight: bold;
-  padding: 2rem;
-  width: 33.33333%;
-}
-
-.details {
-  padding: 2rem;
-  width: 66.66667%;
-}
 </style>
 
 
