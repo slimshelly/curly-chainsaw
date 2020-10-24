@@ -1,5 +1,6 @@
 # curly-chainsaw
-a vue framework test project
+- a vue framework test project: an attempt to clone https://concreteislands.cargo.site/, built with vue components.
+- in the future, I hope to adapt this repo into a website to document my woodworking projects.
 
 ## Project setup
 ```
@@ -10,14 +11,4 @@ yarn install
 ```
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
+- you can go to port :8080 to see live updates!
