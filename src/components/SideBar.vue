@@ -11,39 +11,41 @@
       <router-link to="Section-01">Section 01 </router-link>
       <hr />
       <div class="bullets">
-        <router-link to="01">The Grid</router-link>
+        <router-link to="/portfolio/01">The Grid</router-link>
       </div>
       <div class="bullets">
-        <router-link to="02">Haphazard Arrangements</router-link>
+        <router-link to="/portfolio/02">Haphazard Arrangements</router-link>
       </div>
       <div class="bullets">
-        <router-link to="03">Violence and Confrontation</router-link>
+        <router-link to="/portfolio/03">Violence and Confrontation</router-link>
       </div>
-      <div class="bullets"><router-link to="04">Glass Boxes</router-link></div>
+      <div class="bullets">
+        <router-link to="/portfolio/04">Glass Boxes</router-link>
+      </div>
       <br />
       <router-link to="Section-02">Section&nbsp; 02</router-link>
       <hr />
       <div class="bullets">
-        <router-link to="05">Planetary Suburbia</router-link>
+        <router-link to="/portfolio/05">Planetary Suburbia</router-link>
       </div>
       <div class="bullets">
-        <router-link to="06">Jumbled Spatiality</router-link><br />
+        <router-link to="/portfolio/06">Jumbled Spatiality</router-link><br />
       </div>
       <div class="bullets">
-        <router-link to="07">Intruder in the Fortress</router-link>
+        <router-link to="/portfolio/07">Intruder in the Fortress</router-link>
       </div>
       <div class="bullets">
-        <router-link to="08">Endlessly Reenacted</router-link>
+        <router-link to="/portfolio/08">Endlessly Reenacted</router-link>
       </div>
       <div class="bullets">
-        <router-link to="09">Unrelated Objects</router-link>
+        <router-link to="/portfolio/09">Unrelated Objects</router-link>
       </div>
       <div class="bullets">
-        <router-link to="10">Residential Buildings</router-link>
+        <router-link to="/portfolio/10">Residential Buildings</router-link>
       </div>
       <br />
 
-      <router-link to="Information">Information</router-link><br />
+      <router-link to="/info">Information</router-link><br />
       <br />
     </div>
   </div>
