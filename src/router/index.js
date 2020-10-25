@@ -14,13 +14,13 @@ export default new Router({
             component: SplashPage
         },
         {
-            path: '/:id',
+            path: '/portfolio/:id',
             name: 'Individual',
             props: true,
             component: PortfolioPage
         },
         {
-            path: '/information',
+            path: '/info',
             name: 'Information',
             component: InformationPage
         },
